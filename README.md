@@ -12,7 +12,7 @@ make brain-games
 make brain-even
 
 ## Пример игры brain-even:
-https://asciinema.org/a/jC0AcWTwA02EvngLu5av4N3ry
+https://asciinema.org/a/caOozKOiguC7CCKgWi21rTwdO
 
 ## Победа или поражение:
 Ответьте верно (yes/no) на три вопроса подряд, чтобы выиграть
