@@ -1,5 +1,6 @@
 import random
 
+
 def get_random_expression():
     operations = ['+', '-', '*']
     num1 = random.randint(1, 100)
@@ -7,6 +8,7 @@ def get_random_expression():
     operation = random.choice(operations)
     expression = f"{num1} {operation} {num2}"
     return expression, eval(expression)
+
 
 def main():
     print('Welcome to the Brain Games!')
@@ -28,6 +30,7 @@ def main():
         print("Correct!")
     
     print(f'Congratulations, {name}!')
+
 
 if __name__ == '__main__':
     main()

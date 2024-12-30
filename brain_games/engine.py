@@ -6,9 +6,11 @@ def welcome_user():
     print(f"Hello, {name}!")
     return name
 
+
 def ask_question(question):
     print(f"Question: {question}")
     return input("Your answer: ")
+
 
 def check_answer(user_answer, correct_answer, name):
     if user_answer == correct_answer:
@@ -18,6 +20,7 @@ def check_answer(user_answer, correct_answer, name):
         print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
         print(f"Let's try again, {name}!")
         return False
+
 
 def run_game(game_logic):
     name = welcome_user()

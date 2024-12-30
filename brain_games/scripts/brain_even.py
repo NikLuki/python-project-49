@@ -1,5 +1,6 @@
 import random
 
+
 def main():
     print('Welcome to the Brain Games!')
     name = input('May I have your name? ')
@@ -23,6 +24,7 @@ def main():
             return  # Завершение игры при неправильном ответе
 
     print(f"Congratulations, {name}!")  # Поздравление при успешной игре
+
     
 if __name__ == '__main__':
     main()
