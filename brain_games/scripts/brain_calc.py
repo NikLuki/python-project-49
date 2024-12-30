@@ -24,9 +24,9 @@ def main():
         
         if str(answer) != str(correct_answer):
             print(
-	        f"'{answer}' is wrong answer ;(. "
-		f"Correct answer was '{correct_answer}'."
-	    )
+                f"'{answer}' is wrong answer ;(. "
+                f"Correct answer was '{correct_answer}'."
+            )
             print(f"Let's try again, {name}!")
             return
         
