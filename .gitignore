@@ -1,4 +1,5 @@
 .venv
 __ pycache__
-dist
+dist/
+*.pyc
 
