@@ -2,6 +2,7 @@ import random
 
 DESCRIPTION = 'What is the result of the expression?'
 
+
 def get_random_expression():
     operations = ['+', '-', '*']
     num1 = random.randint(1, 100)
@@ -9,6 +10,7 @@ def get_random_expression():
     operation = random.choice(operations)
     expression = f"{num1} {operation} {num2}"
     return expression, eval(expression)
+
 
 def get_question_and_answer():
     expression, correct_answer = get_random_expression()
